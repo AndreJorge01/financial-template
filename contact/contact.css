@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;500;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.header {
+  width: 100vw;
+  height: 18vh;
+  background: #CCE8F3;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.header img {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-right: 4rem;
+  text-transform: uppercase;
+  margin-top: 45px;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.section {
+  background: url(../img/page-heading-bg.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  padding: 150px 0;
+  text-align: center;
+  width: 100vw;
+}
+
+.section h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.section h1::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 4px;
+  background: #fff;
+  margin: 20px auto;
+}
+
+.section p {
+  font-style: italic;
+  font-size: 1.125em;
+}
+
+.aside {
+  margin-top: 80px;
+  width: 90vw;
+  height: 30vh;
+  background: #A4C639;
+  border-radius: 20px;
+}
+
+.aside h1,
+h2 {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.aside button {
+  display: block;
+  padding: 10px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  background: #A4C639;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 1000PX;
+  margin-top: -15PX;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 180px;
+  font-size: 1rem;
+  background-color: #A4C639;
+  max-width: 700px;
+  height: 70vh;
+  border-radius: 20px;
+  margin-left: 310px;
+
+}
+
+form h1 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #fff;
+  text-shadow: 5px 5px 5px black;
+}
+
+input,
+textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 1px solid;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border-color: #000066;
+  box-shadow: 5px 0px 9px #FFFF00;
+  background-color: #66FFFF;
+  color: black;
+  font-weight: bold;
+}
+
+.enviar {
+  background-color: #66FFFF;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: black;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.about {
+  margin-top: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.about-text {
+  width: 50%;
+  margin-left: 640px;
+  margin-top: -480px;
+}
+
+.endereco {
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.endereco h1 {
+  display: flex;
+  justify-content: center;
+  margin-left: -180px;
+}
+
+.endereco-img {
+  margin-top: 20px;
+}
+
+.lowerinfo-bg {
+  background: #A4C639;
+  color: white;
+}
+
+.lowerinfo {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  margin-top: 120px;
+}
+
+.lowerinfo p,
+.lowerinfo a {
+  margin: 0 10px 10px 10px;
+}
+
+.lowerinfo a {
+  color: white;
+}
+
+.footer {
+  width: 100vw;
+  height: 12vh;
+  background: #343434;
+  display: flex;
+  justify-content: center;
+}
+
+.footer h1 {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 16px;
+
+}
